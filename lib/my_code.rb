@@ -31,15 +31,11 @@ def map_to_square(source_array)
   new_array
 end
 
-def reduce_to_total(source_array, starting_point)
-  x=0
+def reduce_to_total(source_array, starting_point=0)
   for item in source_array
-    x += item 
+    starting_point += item 
   end
-  if starting_point
-    return x+starting_point
-  end
-  return x
+  starting_point
 end
 
 def reduce_to_all_true(source_array)
