@@ -36,7 +36,10 @@ def reduce_to_total(source_array, starting_point)
   for item in source_array
     x += item 
   end
-  return x+starting_point
+  if starting_point
+    return x+starting_point
+  end
+  return x
 end
 
 def reduce_to_all_true(source_array)
