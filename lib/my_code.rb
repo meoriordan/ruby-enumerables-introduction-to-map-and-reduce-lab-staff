@@ -38,6 +38,17 @@ def reduce_to_total(source_array, starting_point)
   starting_point
 end
 
+def reduce_to_all_true(source_array)
+  x = FALSE
+  for item in source_array
+    if item = TRUE
+      x = TRUE
+      return x 
+    end
+  end
+  x
+end
+
 def reduce_to_any_true(source_array)
   x = FALSE
   for item in source_array
