@@ -30,3 +30,10 @@ def map_to_double(source_array)
   end
   new_array
 end
+
+def reduce_to_total(source_array, starting_point)
+  for item in source_array
+    starting_point += item 
+  end
+  starting_point
+end
