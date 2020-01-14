@@ -1,7 +1,7 @@
 # My Code here....
 def map_to_negativize(source_array)
   new_array = []
-  source_array.each {|item|
-    new_array << -item
-  }
+  for item in source_array
+    new_array << -item 
+  end
   new_array
