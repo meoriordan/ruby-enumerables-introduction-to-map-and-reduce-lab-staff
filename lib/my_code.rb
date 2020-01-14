@@ -10,6 +10,6 @@ end
 def map_to_no_change(source_array)
   new_array = []
   for item in source_array
-    new_array << end 
+    new_array << item 
   end
 end
