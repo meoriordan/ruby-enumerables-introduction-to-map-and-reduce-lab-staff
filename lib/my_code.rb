@@ -23,7 +23,7 @@ def map_to_double(source_array)
   new_array
 end
 
-def map_to_double(source_array)
+def map_to_square(source_array)
   new_array = []
   for item in source_array
     new_array << (item**2)
