@@ -41,7 +41,7 @@ end
 
 def reduce_to_all_true(source_array)
   for item in source_array
-    if item = FALSE
+    if item == FALSE
       return FALSE
     end
   end
@@ -51,7 +51,7 @@ end
 def reduce_to_any_true(source_array)
   x = FALSE
   for item in source_array
-    if item = TRUE
+    if item == TRUE
       x = TRUE
       return x 
     end
