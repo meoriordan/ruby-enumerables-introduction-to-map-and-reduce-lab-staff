@@ -17,6 +17,6 @@ end
 def map_to_double(source_array)
   new_array = []
   for item in source_array
-    new_array << 2*item 
+    new_array << (2*item) 
   end
 end
